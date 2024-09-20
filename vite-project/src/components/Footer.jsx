@@ -1,13 +1,12 @@
 import React from 'react';
-import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <a href="https://github.com/KitKatKernel" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/james-ryan-iv-493bb0308/" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
-        <a href="mailto:Natecrunchyroll@gmail.com" className="footer-link">Email</a>
+    <footer className="bg-gradient-custom mt-8">
+      <div className="container mx-auto px-4 py-4 flex justify-center items-center border border-custom-border rounded">
+        <a href="https://github.com/YourGitHub" target="_blank" rel="noopener noreferrer" className="mx-2">GitHub</a>
+        <a href="https://linkedin.com/in/YourLinkedIn" target="_blank" rel="noopener noreferrer" className="mx-2">LinkedIn</a>
+        <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer" className="mx-2">Twitter</a>
       </div>
     </footer>
   );
