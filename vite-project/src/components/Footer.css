@@ -1,22 +1,30 @@
 .footer {
-    background-color: #1b1f23;
-    color: #7e96b1;
-    padding: 1rem 2rem;
+    background-color: transparent;
+    padding: 1rem;
     text-align: center;
+    margin-top: 2rem;
   }
   
   .footer-content {
+    font-size: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(26, 43, 62), rgb(20, 30, 48)); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden; 
+    padding: 1rem;
   }
   
   .footer-link {
-    color: #7e96b1;
+    --tw-text-opacity: 1;
+    color: rgb(100 108 255 / var(--tw-text-opacity)); 
     text-decoration: none;
     margin: 0 1rem;
     transition: color 0.3s;
   }
   
   .footer-link:hover {
-    color: #66c0f4;
+    color: #66c0f4; 
   }
+  

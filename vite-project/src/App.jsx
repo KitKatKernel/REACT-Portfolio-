@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,9 +9,9 @@ import Resume from './pages/Resume';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-custom-bg text-white min-h-screen overflow-x-hidden pt-14">
       <Header />
-      <main>
+      <main className="container mx-auto px-4 py-8">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
