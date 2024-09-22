@@ -18,6 +18,17 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(new FormData(form)).toString()
+    })
+      .then(() => {
+        console.log("Form successfully submitted");
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => alert(error));
   };
 
   return (
