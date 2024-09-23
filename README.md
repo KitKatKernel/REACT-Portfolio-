@@ -13,7 +13,7 @@ This is my personal portfolio website built with React. It showcases my projects
 
 ## Usage
 This site has been deployed on Netlify.
-- **Repository**: [REACT-Portfolio- GitHub](https://github.com/KitKatKernel/REACT-Portfolio-)
+
 - **Netlify Deployment**: [James Ryan IV Portfolio](https://jamesryan.netlify.app)
 
 ![Website screenshot 1](./Sample1.png)
